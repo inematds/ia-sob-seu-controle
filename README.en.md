@@ -6,7 +6,9 @@
 
 ## What it is
 
-A free educational kit from INEMA to help you choose where your AI runs, who receives your data, and how to check its work. Inspired by an analysis of the lesson “The 5 Levels of Uncensored AI,” it separates freedom to respond, privacy, and accuracy. It includes an original analysis, a fictional exercise with a known answer, a decision form, and an offline checker. It does not install models, call APIs, or replace tests of your actual configuration.
+This is a free decision and verification kit for people who use AI at work. It separates two choices: who can access the data and which requests the model agrees to answer. The kit includes an exercise with a known answer, a fillable form, and a local checker for recording your decisions. You only need to read to understand the subject; to run the checker, you need Python. It does not install or configure AI models.
+
+This repo provides a decision and verification kit. It helps you assess privacy, freedom of response, and quality separately. It does not install a private AI or an uncensored model.
 
 ## User guide
 
@@ -38,8 +40,5 @@ The example starts incomplete and returns `invalida` (code 2). Open `kit/exemplo
 
 The checker reads local JSON only and validates the decisions you declare. It does not inspect the network, model, hardware, or user files. It does not measure AI quality, guarantee there are no leaks, or install software. The code is independent of the guide language; the kit examples and messages are in Portuguese.
 
-## Source
-
-[The 5 Levels of Uncensored AI — Jack Roberts](https://youtu.be/FbiOr73tRPk), lesson published on 15/11/2026. Original analysis and documentation links; no reproduction of private materials.
 
 MIT license for the code and original texts in this project. Trademarks and external materials belong to their respective authors.

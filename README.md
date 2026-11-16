@@ -6,7 +6,9 @@
 
 ## O que é
 
-Kit educativo gratuito do INEMA para escolher onde sua IA roda, quem recebe seus dados e como conferir uma entrega. Inspirado na análise da aula “The 5 Levels of Uncensored AI”, separa liberdade de resposta, privacidade e precisão. Inclui análise autoral, exercício fictício com resposta conhecida, ficha de decisão e conferidor offline. Não instala modelos, não chama APIs e não substitui testes da sua configuração real.
+Este é um kit gratuito de decisão e verificação para quem usa IA no trabalho. Ele separa duas escolhas: quem pode acessar os dados e quais pedidos o modelo aceita responder. O kit traz um exercício com resposta conhecida, uma ficha preenchível e um conferidor local para registrar suas decisões. Para entender o assunto, basta ler; para executar o conferidor, você precisa de Python. Ele não instala nem configura modelos de IA.
+
+Este repo entrega um kit de decisão e verificação. Ele ajuda você a avaliar privacidade, liberdade de resposta e qualidade separadamente. Não instala uma IA privada nem um modelo sem censura.
 
 ## Guia de uso
 
@@ -38,8 +40,5 @@ O exemplo começa incompleto e retorna `invalida` (código 2). Abra `kit/exemplo
 
 O conferidor apenas lê JSON local e valida as decisões declaradas. Não inspeciona rede, modelo, hardware ou arquivos do usuário. Não mede qualidade da IA, não garante ausência de vazamento e não instala software. O código é independente do idioma do guia; os exemplos e mensagens do kit estão em português.
 
-## Fonte
-
-[The 5 Levels of Uncensored AI — Jack Roberts](https://youtu.be/FbiOr73tRPk), aula publicada em 15/11/2026. Análise autoral e links de documentação; sem reprodução dos materiais privados.
 
 MIT para o código e textos autorais deste projeto. Marcas e materiais externos pertencem aos respectivos autores.
